@@ -45,11 +45,11 @@
 
 
 //chalk//
-const { v4: uuid4 } = require("uuid");
-const random = uuid4();
-console.log("random:", random);
+// const { v4: uuid4 } = require("uuid");
+// const random = uuid4();
+// console.log("random:", random);
 
-const chalk = require("chalk");
-const log = console.log;
+// const chalk = require("chalk");
+// const log = console.log;
 
-log(chalk.blue("hello john") + random + chalk.red("!"));
+// log(chalk.blue("hello john") + random + chalk.red("!"));

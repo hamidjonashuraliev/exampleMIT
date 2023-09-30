@@ -22,3 +22,37 @@
 // fs.writeFileSync('./input.txt', `${data} \n\t\t by John`);
 // const new_data = fs.readFileSync('./input.txt', 'utf8');
 // console.log(new_data);
+
+
+
+// Module package External 
+
+
+
+// Module paskage File
+
+// console.log(require("module").wrapper);
+
+
+
+// const calculate = require('./hisob');
+
+// const natija = calculate.kopaytirish(80, 20);
+// console.log("Natija", natija);
+
+// console.log('*************');
+
+// const natija2 = calculate.bolish(80, 20);
+// console.log("Natija", natija2);
+
+// console.log('*************');
+
+// const natija3 = calculate.qoshish(80, 20);
+// console.log("Natija", natija3);
+
+// console.log('*************');
+
+// const natija4 = calculate.ayirish(80, 20);
+// console.log("Natija", natija4);
+
+

@@ -1,23 +1,23 @@
 {
-  "name": "example-mit",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon external.js",
-    "train": "node train.js",
-    "external": "node external.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "chalk": "^4.1.2",
-    "inquirer": "^8.2.6",
-    "moment": "^2.29.4",
-    "nodemon": "^3.0.1",
-    "uuid": "^9.0.1",
-    "validator": "^13.11.0"
-  }
+    "name": "example-mit",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "train": "node train.js",
+        "hisob": "node hisob.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "inquirer": "^8.2.6",
+        "moment": "^2.29.4",
+        "nodemon": "^3.0.1",
+        "uuid": "^9.0.1",
+        "validator": "^13.11.0"
+    }
 }

@@ -25,3 +25,39 @@
 // }
 // let result = hisob(r);
 // console.log(result);
+
+
+//e - task 
+//1- method 
+// function getReverse(hello) {
+//     letter_text = hello.split("");
+    
+//     const new_list = [];
+//     letter_text.forEach(ele => {
+//       new_list.unshift(ele);
+//     });
+//     console.log(new_list.join(""))
+// }
+
+// getReverse("world");
+
+
+// //2- method 
+// function getReverse(world) {
+//     let split = world.split("").reverse().join("");
+//     console.log(split);
+//     // let reversed = split.reverse()
+//     // let str = reversed.join("");
+// }
+//  getReverse("hello");
+
+//  //3- method 
+//  function getReverse(world) {
+//     let split = world.split("")
+//     console.log(split);
+//     let reversed = split.reverse()
+//     console.log(reversed);
+//     let str = reversed.join("");
+//     console.log(str);
+// }
+//  getReverse("hello");
