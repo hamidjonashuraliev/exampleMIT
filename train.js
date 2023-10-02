@@ -61,3 +61,27 @@
 //     console.log(str);
 // }
 //  getReverse("hello");
+
+
+//f-task
+function findDoublers(str) {
+    // Bo'sh ob'ektni yaratamiz, harflarni san'aymiz
+    const charCount = {};
+
+    // Stringni aylanib o'tamiz va harflarni san'aymiz
+    for (const char of str) {
+        if (charCount[char]) {
+            // Agar harf allaqachon sanalgan bo'lsa, true qaytar
+            return true;
+        }
+        charCount[char] = 1;
+    }
+
+    // Harf bir marta ham takrorlanmagan bo'lsa, false qaytar
+    return false;
+}
+
+// Test qilish
+console.log(findDoublers("hello")); // true
+console.log(findDoublers("world")); // false
+console.log(findDoublers("programming")); // true
